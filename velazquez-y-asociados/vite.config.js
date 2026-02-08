@@ -7,4 +7,19 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  // Agregar esta configuración para Vercel
+  build: {
+    outDir: 'dist',
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom'],
+          'framer-vendor': ['framer-motion']
+        }
+      }
+    }
+  },
+  // Para evitar problemas de routing
+  base: '/',
 });
