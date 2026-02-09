@@ -81,7 +81,7 @@ export default function Navbar({ tab, setTab }) {
               }}
               className="hidden md:block px-6 py-2 bg-[#D4AF37] text-white font-medium rounded-full hover:-translate-y-1 hover:shadow-lg hover:shadow-[#D4AF37]/25 transition-all duration-300"
             >
-              Consulta Gratuita
+              Dar el Primer Paso
             </button>
             
             {/* Botón Menú Hamburguesa - Solo visible en móvil */}

@@ -15,7 +15,7 @@ function AppContent() {
 
   const handleTabChange = (newTab) => {
     if (tab === newTab) return;
-    
+
     setIsTransitioning(true);
     setTimeout(() => {
       setTab(newTab);
@@ -25,38 +25,38 @@ function AppContent() {
 
   const renderSection = () => {
     switch(tab) {
-      case "inicio": 
+      case "inicio":
         return <Inicio setTab={handleTabChange} />;
-      case "nosotros": 
+      case "nosotros":
         return <Nosotros setTab={handleTabChange} />;
-      case "casos": 
+      case "casos":
         return <Casos setTab={handleTabChange} />;
-      case "contacto": 
+      case "contacto":
         return <Contacto setTab={handleTabChange} />;
-      default: 
+      default:
         return <Inicio setTab={handleTabChange} />;
     }
   };
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${isDarkMode ? 'dark' : ''}`}>
-      <Navbar tab={tab} setTab={handleTabChange} />
+      <div className={`min-h-screen transition-colors duration-300 ${isDarkMode ? 'dark' : ''}`}>
+        <Navbar tab={tab} setTab={handleTabChange} />
 
-      <main className="min-h-[80vh]">
-        <div className={`transition-opacity duration-300 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
-          {renderSection()}
-        </div>
-      </main>
+        <main>
+          <div className={`transition-opacity duration-300 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}>
+            {renderSection()}
+          </div>
+        </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
   );
 }
 
 export default function App() {
   return (
-    <ThemeProvider>
-      <AppContent />
-    </ThemeProvider>
+      <ThemeProvider>
+        <AppContent />
+      </ThemeProvider>
   );
 }

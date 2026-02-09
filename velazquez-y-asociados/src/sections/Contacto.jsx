@@ -74,8 +74,9 @@ export default function Contacto() {
             Estamos para <span className="text-secondary">Asesorarte</span>
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Su primera consulta es gratuita. Permítanos entender su situación 
-            y ofrecerle la mejor estrategia legal.
+            Con el objetivo de ofrecerle total transparencia desde el inicio,
+            realizamos una consulta inicial profesional con un honorario accesible.
+            Durante la misma, definimos la viabilidad de su caso y acordamos juntos los honorarios para una representación efectiva.
           </p>
         </motion.div>
 

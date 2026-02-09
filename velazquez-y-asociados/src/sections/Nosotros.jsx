@@ -1,50 +1,59 @@
 import { motion } from "framer-motion";
-import fundador from "../assets/fundador.jpg";
-import socio1 from "../assets/socio1.jpg";
-import socio2 from "../assets/socio2.jpg";
-import socio3 from "../assets/socio3.jpg";
-import socio4 from "../assets/socio4.jpg";
+import fundador from "../assets/alexvelazquez.jpeg";
+import socio1 from "../assets/sig1.jpeg";
+import socio2 from "../assets/bader1.jpeg";
+import socio3 from "../assets/juanescobar.jpeg";
+import socio4 from "../assets/vera1.jpeg";
+import socio5 from "../assets/3.jpeg";
 
 const miembros = [
   { 
-    nombre: "Abog. Alex Velázquez", 
-    rol: "Fundador", 
+    nombre: "Abg. Alex Velázquez",
+    rol: "Fundador | Abogado Litigante Estratégico",
     foto: fundador,
-    especialidad: "Derecho Corporativo",
-    experiencia: "25+ años",
-    descripcion: "Especialista en derecho empresarial y compliance"
+    especialidad: "Litigio Penal & Civil (Sucesiones, Familia)",
+    experiencia: "2+ años",
+    descripcion: "Litigante especializado en defensa penal y derecho civil. Su experiencia como Oficial de Justicia le otorga una visión estratégica única del proceso judicial, optimizando la defensa en audiencias y juicios orales, y la gestión de casos de sucesiones y familia."
   },
   { 
-    nombre: "Dra. María Rodríguez", 
-    rol: "Socia Principal", 
+    nombre: "Abg. Sigfrido Bader",
+    rol: "Abogado",
     foto: socio1,
-    especialidad: "Litigio Civil",
-    experiencia: "18 años",
-    descripcion: "Experta en litigios complejos y arbitraje"
+    especialidad: "Derecho Civil y Apoyo en Litigio",
+    experiencia: "Egresado de la UNA",
+    descripcion: "Abogado proactivo y analítico, egresado de la Facultad de Derecho de la UNA. Con pasión por la justicia y habilidades sólidas en investigación y análisis legal, estoy preparado para apoyar en casos complejos, aportando rigor, dedicación y una capacidad de aprendizaje rápido para adaptarme a los desafíos del litigio."
   },
   { 
-    nombre: "Dr. Carlos Fernández", 
-    rol: "Socio Senior", 
+    nombre: "Abg. Rocio Bader",
+    rol: "Abogada",
     foto: socio2,
-    especialidad: "Derecho Laboral",
-    experiencia: "15 años",
-    descripcion: "Especialista en relaciones laborales"
+    especialidad: "Derecho Civil, Laboral y de Familia",
+    experiencia: "1+ años",
+    descripcion: "Abogada egresada de la UNA con matrícula CSJ N.º 75.613. Especializada en derecho civil, laboral y de familia. Me destaco por un análisis jurídico riguroso y un enfoque humano, priorizando soluciones eficientes y éticas para cada cliente. Mi adaptabilidad y vocación de servicio me permiten manejar casos diversos generando confianza desde el primer contacto."
   },
   { 
-    nombre: "Dra. Ana Martínez", 
-    rol: "Socia", 
+    nombre: "Abg. Juan Escobar",
+    rol: "Abogado Litigante Especializado",
     foto: socio3,
-    especialidad: "Propiedad Intelectual",
-    experiencia: "12 años",
-    descripcion: "Experta en marcas y patentes"
+    especialidad: "Civil, Niñez/Adolescencia y Litigio Comercial",
+    experiencia: "5+ años",
+    descripcion: "Abogado con doble especialidad en Derecho Civil y de Niñez/Adolescencia, ampliada con una sólida práctica litigante en Derecho Comercial. Su valor radica en la capacidad de manejar asuntos legales que abarcan desde la esfera familiar hasta la empresarial, ofreciendo una defensa integral y estratégica. Es un profesional de tribunal, preparado para la argumentación compleja en múltiples ramas del derecho."
   },
   { 
-    nombre: "Dr. Luis González", 
-    rol: "Socio", 
+    nombre: "Abg. Fernando Vera",
+    rol: "Abogado Asesor | Soporte en Formación Interna",
     foto: socio4,
-    especialidad: "Derecho Tributario",
-    experiencia: "10 años",
-    descripcion: "Especialista en planificación fiscal"
+    especialidad: "Metodología y Comunicación Legal",
+    experiencia: "3+ años",
+    descripcion: "Abogado cuya fortaleza radica en aplicar principios de la didáctica superior al ejercicio legal. Su formación (Derecho - UNA y Posgrado en Didáctica) lo convierte en un activo clave para el estudio, no solo en la atención directa de casos con una comunicación jurídica de alta claridad, sino también en la capacitación interna, la elaboración de materiales para clientes y el perfeccionamiento de argumentos escritos y orales del equipo."
+  },
+  {
+    nombre: "Abg. Sira Marin",
+    rol: "Abogada Especializada",
+    foto: socio5,
+    especialidad: "Niñez y Adolescencia | Derecho Penal y Civil",
+    experiencia: "3+ años",
+    descripcion: "Abogada especializada en Niñez y Adolescencia, con amplia experiencia transversal en Derecho Penal, Civil y Laboral. En formación continua, cursando un posgrado en Didáctica Universitaria (UNA). Domina español, guaraní y portugués, lo que le permite una comunicación efectiva y sensible con una diversidad de clientes, abordando casos con un enfoque integral y especializado."
   },
 ];
 
