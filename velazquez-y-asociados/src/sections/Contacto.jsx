@@ -33,8 +33,8 @@ export default function Contacto() {
     {
       icon: "📧",
       titulo: "Email",
-      valor: "contacto@velazquezyasociados.com",
-      accion: "mailto:contacto@velazquezyasociados.com"
+      valor: "astrea185sa@gmail.com",
+      accion: "mailto:astrea185sa@gmail.com"
     },
     {
       icon: "📱",
@@ -46,7 +46,7 @@ export default function Contacto() {
       icon: "📍",
       titulo: "Oficina Central",
       valor: "Capiata, Paraguay",
-      accion: "https://maps.google.com"
+      accion: "https://www.google.com/maps/place/25%C2%B021'43.4%22S+57%C2%B026'47.4%22W/@-25.362066,-57.4490743,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-25.362066!4d-57.4464994?hl=es&entry=ttu&g_ep=EgoyMDI2MDIwOC4wIKXMDSoASAFQAw%3D%3D"
     }
   ];
 
@@ -61,7 +61,7 @@ export default function Contacto() {
       nombre: "Facebook",
       icon: "f",
       color: "bg-blue-800",
-      url: "https://www.facebook.com/velazquezyasociados"
+      url: "https://www.facebook.com/share/1EBdQAdfMH/"
     },
     {
       nombre: "Instagram",

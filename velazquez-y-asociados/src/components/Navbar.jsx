@@ -178,9 +178,9 @@ export default function Navbar({ tab, setTab }) {
                   {/* Info adicional móvil */}
                   <div className="pt-6 border-t border-gray-200 dark:border-gray-800">
                     <div className="text-sm text-gray-500 dark:text-gray-400 space-y-2">
-                      <p>📱 +595 9XX XXX XXX</p>
-                      <p>📧 contacto@velazquezyasociados.com</p>
-                      <p>📍 Av. Principal 1234, Asunción</p>
+                      <p>📱 +595 992 635 612</p>
+                      <p>📧 astrea185sa@gmail.com</p>
+                      <p>📍 Capiata, Paraguay</p>
                     </div>
                   </div>
                 </div>

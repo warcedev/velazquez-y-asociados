@@ -13,7 +13,7 @@ export default function Footer() {
     {
       nombre: "Facebook",
       icon: "f",
-      url: "https://www.facebook.com/velazquezyasociados"
+      url: "https://www.facebook.com/share/1EBdQAdfMH/"
     },
     {
       nombre: "Instagram",
@@ -95,7 +95,7 @@ export default function Footer() {
                   <div>
                     <div className="font-semibold">Email</div>
                     <div className="text-gray-300">
-                      contacto@velazquezyasociados.com
+                      astrea185sa@gmail.com
                     </div>
                   </div>
                 </div>
@@ -116,8 +116,18 @@ export default function Footer() {
           {/* Copyright */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Desarrollado por CodeByWill. Todos los derechos reservados.
+              © {new Date().getFullYear()} Desarrollado por{" "}
+              <a
+                  href="https://codebywill.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors font-semibold"
+              >
+                CodeByWill
+              </a>
+              . Todos los derechos reservados.
             </div>
+
             <div className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Velázquez y Asociados. Todos los derechos reservados.
             </div>
