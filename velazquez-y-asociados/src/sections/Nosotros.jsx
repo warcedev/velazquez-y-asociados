@@ -146,14 +146,14 @@ export default function Nosotros() {
                 </p>
                 
                 {/* Redes sociales simuladas */}
-                <div className="flex gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
-                    <span className="text-sm">in</span>
-                  </div>
-                  <div className="w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
-                    <span className="text-sm">✉</span>
-                  </div>
-                </div>
+                {/*<div className="flex gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">*/}
+                {/*  <div className="w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">*/}
+                {/*    /!*<span className="text-sm">in</span>*!/*/}
+                {/*  </div>*/}
+                {/*  <div className="w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">*/}
+                {/*    /!*<span className="text-sm">✉</span>*!/*/}
+                {/*  </div>*/}
+                {/*</div>*/}
               </div>
             </motion.div>
           ))}
@@ -169,7 +169,7 @@ export default function Nosotros() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-display font-bold text-primary dark:text-white mb-2">
-                80+
+                14+
               </div>
               <div className="text-gray-600 dark:text-gray-400">
                 Años de experiencia combinada
@@ -177,7 +177,7 @@ export default function Nosotros() {
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-display font-bold text-secondary mb-2">
-                15+
+                7+
               </div>
               <div className="text-gray-600 dark:text-gray-400">
                 Especialidades legales cubiertas

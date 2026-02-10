@@ -295,7 +295,7 @@ export default function Inicio({ setTab }) {
                     </blockquote>
 
                     <div className="font-semibold text-[#0A2540] dark:text-white">
-                      Dr. Juan Velázquez
+                      Abg. Alex Velázquez
                     </div>
                     <div className="text-sm text-gray-500 dark:text-gray-400">
                       Fundador - Velázquez & Asociados

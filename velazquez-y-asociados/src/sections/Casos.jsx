@@ -3,32 +3,32 @@ import StatCard from "../components/StatCard";
 
 const casosDestacados = [
   {
-    titulo: "Fusión Corporativa Multinacional",
-    descripcion: "Asesoramiento en fusión de empresas con presencia en 3 países",
-    resultado: "Proceso completado en tiempo récord",
-    area: "Derecho Corporativo",
-    año: "2024"
+    titulo: "Juicio Oral y Público – Defensa Penal",
+    descripcion: "Defensa asumida tras el abandono de la defensa técnica previa, logrando un fallo favorable en juicio oral y público",
+    resultado: "Juicio ganado",
+    area: "Derecho Penal",
+    año: "2025"
   },
   {
-    titulo: "Arbitraje Internacional",
-    descripcion: "Representación en arbitraje con monto en disputa de USD 50M",
-    resultado: "Falló favorable al cliente",
-    area: "Arbitraje",
-    año: "2023"
+    titulo: "Jornada de Consultoría Jurídica Gratuita",
+    descripcion: "Evento de orientación legal gratuita para concienciar sobre los derechos del ciudadano en la ciudad de Capiatá",
+    resultado: "Alta participación y orientación legal a la comunidad",
+    area: "Consultoría Jurídica",
+    año: "2025"
   },
   {
-    titulo: "Defensa de Propiedad Intelectual",
-    descripcion: "Protección de patente tecnológica a nivel internacional",
-    resultado: "Sentencia favorable y protección extendida",
-    area: "Propiedad Intelectual",
-    año: "2023"
+    titulo: "Caso de Tránsito con Resultado Penal",
+    descripcion: "Representación de víctima de atropello por conductor en estado de ebriedad, con daños materiales y personales",
+    resultado: "Indemnización por gastos médicos, lucro cesante, daños morales y reposición del vehículo",
+    area: "Derecho Penal – Tránsito",
+    año: "2025"
   },
   {
-    titulo: "Reestructuración Laboral",
-    descripcion: "Asesoramiento en reestructuración de empresa con 500 empleados",
-    resultado: "Proceso sin conflictos legales",
-    area: "Derecho Laboral",
-    año: "2022"
+    titulo: "Aumento de la Asistencia Alimenticia – Fuero Niñez y Adolescencia",
+    descripcion: "Juicio promovido para el aumento de la asistencia alimenticia a favor de un niño, solicitando la adecuación del monto conforme a las necesidades actuales",
+    resultado: "Se hizo lugar al juicio, aumentando la asistencia de 3,55 a 7,43 jornales mínimos y fijando el pago retroactivo de G. 8.800.000 a favor del niño",
+    area: "Derecho de la Niñez y Adolescencia",
+    año: "2025"
   }
 ];
 
@@ -62,9 +62,9 @@ export default function Casos() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="grid md:grid-cols-3 gap-8 mb-20"
         >
-          <StatCard value="+150" label="Casos resueltos" />
-          <StatCard value="95%" label="Tasa de éxito" />
-          <StatCard value="+200" label="Clientes satisfechos" suffix="+" />
+          <StatCard value="+100" label="Casos resueltos" />
+          <StatCard value="98%" label="Tasa de éxito" />
+          <StatCard value="+100" label="Clientes satisfechos" suffix="+" />
         </motion.div>
 
         {/* Casos destacados */}

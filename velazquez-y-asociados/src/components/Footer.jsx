@@ -4,6 +4,24 @@ import { useTheme } from "../context/ThemeContext";
 export default function Footer() {
   const { isDarkMode } = useTheme();
 
+  const redes = [
+    {
+      nombre: "LinkedIn",
+      icon: "in",
+      url: "https://py.linkedin.com/in/alex-velazquez-461942222"
+    },
+    {
+      nombre: "Facebook",
+      icon: "f",
+      url: "https://www.facebook.com/velazquezyasociados"
+    },
+    {
+      nombre: "Instagram",
+      icon: "📸",
+      url: "https://www.instagram.com/velazquezyasociadospy"
+    }
+  ];
+
   return (
       <footer className="relative bg-[#0A2540] dark:bg-[#0F172A] text-white overflow-hidden">
         {/* Elementos decorativos */}
@@ -18,28 +36,25 @@ export default function Footer() {
                 Velázquez & Asociados
               </div>
               <p className="text-gray-300 mb-6 max-w-md">
-                Estudio juridico comprometido con la excelencia, integridad y
+                Estudio jurídico comprometido con la excelencia, integridad y
                 resultados excepcionales en cada caso.
               </p>
+
+              {/* Redes sociales */}
               <div className="flex gap-4">
-                <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center cursor-pointer"
-                >
-                  in
-                </motion.div>
-                <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center cursor-pointer"
-                >
-                  f
-                </motion.div>
-                <motion.div
-                    whileHover={{ scale: 1.1 }}
-                    className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center cursor-pointer"
-                >
-                  📸
-                </motion.div>
+                {redes.map((red) => (
+                    <motion.a
+                        key={red.nombre}
+                        href={red.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        whileHover={{ scale: 1.1 }}
+                        aria-label={red.nombre}
+                        className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center cursor-pointer text-white font-bold hover:bg-white/20 transition"
+                    >
+                      {red.icon}
+                    </motion.a>
+                ))}
               </div>
             </div>
 
@@ -49,7 +64,7 @@ export default function Footer() {
                 Enlaces Rápidos
               </h4>
               <div className="space-y-3">
-                {['Inicio', 'Nosotros', 'Casos', 'Contacto'].map((item) => (
+                {["Inicio", "Nosotros", "Casos", "Contacto"].map((item) => (
                     <motion.a
                         key={item}
                         href="#"
@@ -72,21 +87,23 @@ export default function Footer() {
                   <span className="text-[#D4AF37]">📍</span>
                   <div>
                     <div className="font-semibold">Oficina Central</div>
-                    <div className="text-gray-300">Av. Principal 1234, Asunción</div>
+                    <div className="text-gray-300">Capiatá, Paraguay</div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-[#D4AF37]">📧</span>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-gray-300">contacto@velazquezyasociados.com</div>
+                    <div className="text-gray-300">
+                      contacto@velazquezyasociados.com
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-[#D4AF37]">📱</span>
                   <div>
                     <div className="font-semibold">WhatsApp</div>
-                    <div className="text-gray-300">+595 9XX XXX XXX</div>
+                    <div className="text-gray-300">+595 992 635 612</div>
                   </div>
                 </div>
               </div>
@@ -96,8 +113,11 @@ export default function Footer() {
           {/* Línea divisoria */}
           <div className="border-t border-white/20 my-10" />
 
-          {/* Copyright y legales */}
+          {/* Copyright */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            <div className="text-gray-400 text-sm">
+              © {new Date().getFullYear()} Desarrollado por CodeByWill. Todos los derechos reservados.
+            </div>
             <div className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Velázquez y Asociados. Todos los derechos reservados.
             </div>
@@ -123,7 +143,7 @@ export default function Footer() {
 
         {/* Nota de dark mode */}
         <div className="text-center text-gray-500 text-xs pt-8 pb-6">
-          {isDarkMode ? '🌙 Modo oscuro activado' : '☀️ Modo claro activado'}
+          {isDarkMode ? "🌙 Modo oscuro activado" : "☀️ Modo claro activado"}
         </div>
       </footer>
   );
