@@ -131,7 +131,7 @@ export default function Casos() {
             </svg>
             
             <blockquote className="text-xl md:text-2xl font-display italic mb-8">
-              "Tu causa es nuestro compromiso; resultados reales que avaclan nuestra dedicación."
+              "Tu causa es nuestro compromiso; resultados reales que avalan nuestra dedicación."
             </blockquote>
             
             <div>
