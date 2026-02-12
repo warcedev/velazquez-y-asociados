@@ -131,13 +131,12 @@ export default function Casos() {
             </svg>
             
             <blockquote className="text-xl md:text-2xl font-display italic mb-8">
-              "Velázquez & Asociados transformó nuestro caso más complejo en una 
-              victoria estratégica. Su expertise y dedicación son excepcionales."
+              "Tu causa es nuestro compromiso; resultados reales que avaclan nuestra dedicación."
             </blockquote>
             
             <div>
-              <div className="font-bold text-lg">Carlos Mendoza</div>
-              <div className="text-white/70">Director General, TechCorp International</div>
+              <div className="font-bold text-lg">Abg. Alex Velázquez</div>
+              <div className="text-white/70">Fundador, Velázquez y Asociados</div>
             </div>
           </div>
         </motion.div>
